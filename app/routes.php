@@ -18,7 +18,7 @@ Route::get('/', function()
 
 Route::get('/hello', function()
 {
-	return 'Hello Laravel4';
+	return 'Hello World';
 });
 
 // Routing

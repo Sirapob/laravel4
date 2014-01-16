@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>My Template</title>
+    {{HTML::style('css/style.css')}}
 </head>
-<body>
-    <h1>My Template</h1>
-    <div>
+<body style="background:snow;">
+	<header>Laravel 4 Basic</header>
+    
+    <div class="container">
+    	<div id="content">
     	@yield('content')
+    	</div>
     </div>
 </body>
 </html>

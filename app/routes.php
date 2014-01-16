@@ -18,7 +18,7 @@ Route::get('/', function()
 
 Route::get('/hello', function()
 {
-	return 'testgithub';
+	return 'testprite';
 });
 
 // Routing
